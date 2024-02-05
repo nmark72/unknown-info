@@ -3,8 +3,8 @@
 //};
 
 document.getElementById("myForm").addEventListener("submit", function(e) {
-  e.preventDefault(); // Prevent the form from refreshing the page
-  fetchDataByID(); // Fetch the data by ID
+  e.preventDefault(); 
+  fetchDataByID(); 
 });
 
 function InsertUpdateData(){
