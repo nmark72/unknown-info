@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web App - Input Data</title>
+</head>
+<body>
+  <center>
+    <h1>Input Data into Database</h1>
+    
+    <form>
+        <label for="ID">ID:</label>
+      <input type="text" id="ID" name="ID"><br><br>
+      <label for="Place">Place:</label>
+      <input type="text" id="Place" name="Place"><br><br>
+      <label for="Age">Age:</label>
+      <input type="text" id="Age" name="Age"><br><br>
+      <label for="Description">Description:</label>
+      <input type="text" id="Description" name="Description"><br><br>
+      <input type="submit" name="submit" value="Submit">< 
+      <button onclick="InsertUpdateData()">Submit Data</button>
+      <button onclick="fetchDataByID()">Fetch Data</button>
+      <button onclick="deleteDataByID()">Delete Data</button>
+    </form>
+  </center>
+  <script src="scripts/input.js"></script>
+  <script src="scripts/input-style.js"></script>
+</body>
+</html>
